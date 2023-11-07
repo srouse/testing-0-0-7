@@ -1,0 +1,481 @@
+{
+  "$description": "Test (TST) Design Tokens",
+  "TST": {
+    "$extensions": {
+      "dsys.level": "sheet",
+      "dsys.prefix": "TST",
+      "dsys.fullName": "Test"
+    },
+    "type": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "TypographySet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the type tokens",
+      "test": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "TypographySet",
+          "dsys.name": "test",
+          "dsys.nodeId": "1:200"
+        },
+        "$description": "test typography tokens",
+        "test-h1": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test-h1",
+            "dsys.index": 0,
+            "dsys.styleId": "S:2cd7deff92613c9dece07a02864602262f7f5b26,"
+          },
+          "$value": {
+            "fontFamily": "Abel",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Abel",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 29,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "test-h2": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test-h2",
+            "dsys.index": 1,
+            "dsys.styleId": "S:c3bcdfb361ccda16b8282ddc5e4fb4a6d9a23481,"
+          },
+          "$value": {
+            "fontFamily": "Abel",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Abel",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 24,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "test-h3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test-h3",
+            "dsys.index": 2,
+            "dsys.styleId": "S:3f492d4ab76226c4185ffaf3daf1b426b9f0da05,"
+          },
+          "$value": {
+            "fontFamily": "Abel",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Abel",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 21,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "test-h4": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test-h4",
+            "dsys.index": 3,
+            "dsys.styleId": "S:ae0cec6e2375972b8ce4f59ea1bdd95eb53e3860,"
+          },
+          "$value": {
+            "fontFamily": "Abel",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Abel",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 19,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "test-h5": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test-h5",
+            "dsys.index": 4,
+            "dsys.styleId": "S:e80ea30cbecd0954782f576056cbe132ebe2d23d,"
+          },
+          "$value": {
+            "fontFamily": "Abel",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Abel",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 18,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "test-h6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test-h6",
+            "dsys.index": 5,
+            "dsys.styleId": "S:b1f2389c64b6d65d35cd401b84c99a5eb244f1e9,"
+          },
+          "$value": {
+            "fontFamily": "Abel",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Abel",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 17,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "test-p": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test-p",
+            "dsys.index": 6,
+            "dsys.styleId": "S:0842f5a47741e1ed1b1152702a9491ea1c58cbba,"
+          },
+          "$value": {
+            "fontFamily": "Abel",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Abel",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 16,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "test": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test",
+            "dsys.index": 7,
+            "dsys.styleId": "S:ed49ddd86961f7706c83fae2d56399a04cfd50f4,"
+          },
+          "$value": {
+            "fontFamily": "Abel",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Abel",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 16,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        }
+      }
+    },
+    "icon": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "IconSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the icon tokens",
+      "test": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "IconSet",
+          "dsys.name": "test",
+          "dsys.nodeId": "1:704"
+        },
+        "$description": "test icon tokens",
+        "default": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "default",
+            "dsys.componentId": "1:1032",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M51.9375 6.375H8.0625C5.26652 6.375 3 8.64152 3 11.4375V48.5625C3 51.3574 5.26652 53.625 8.0625 53.625H51.9375C54.7335 53.625 57 51.3585 57 48.5625V11.4375C57 8.64152 54.7324 6.375 51.9375 6.375ZM8.0625 51.9375C6.20203 51.9375 4.6875 50.423 4.6875 48.5625V43.1509L15.8988 31.9396C16.2284 31.61 16.7624 31.61 17.0917 31.9396L25.4269 40.2748L13.7684 51.9375H8.0625ZM55.3125 48.5625C55.3125 50.423 53.798 51.9375 51.9375 51.9375H16.152L42.9094 25.1801C43.239 24.8505 43.773 24.8505 44.1022 25.1801L55.3125 36.402V48.5625ZM55.3125 34.0184L45.2898 23.9957C44.301 23.0102 42.6995 23.0102 41.7102 23.9957L26.625 39.0809L18.198 30.7383C17.2093 29.7528 15.6077 29.7528 14.6184 30.7383L4.6875 40.7684V11.4375C4.6875 9.57703 6.20203 8.0625 8.0625 8.0625H51.9375C53.798 8.0625 55.3125 9.57703 55.3125 11.4375V34.0184ZM16.5 13.9688C13.2379 13.9688 10.5938 16.616 10.5938 19.875C10.5938 23.134 13.2379 25.7812 16.5 25.7812C19.7621 25.7812 22.4062 23.134 22.4062 19.875C22.4062 16.616 19.759 13.9688 16.5 13.9688ZM16.5 24.0938C14.1691 24.0938 12.2812 22.2059 12.2812 19.875C12.2812 17.5484 14.1744 15.6562 16.5 15.6562C18.8256 15.6562 20.7188 17.5441 20.7188 19.875C20.7188 22.2059 18.8309 24.0938 16.5 24.0938Z\" fill=\"#353739\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "twitter": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "twitter",
+            "dsys.componentId": "1:1067",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M51.4492 19.0013C51.4835 19.481 51.4835 19.9608 51.4835 20.4404C51.4835 35.0711 40.3477 51.929 19.9949 51.929C13.7246 51.929 7.89976 50.1129 3 46.9608C3.89089 47.0635 4.74741 47.0978 5.67258 47.0978C10.8463 47.0978 15.6091 45.3504 19.4124 42.3694C14.5469 42.2666 10.4695 39.08 9.06466 34.6942C9.75 34.7969 10.4352 34.8655 11.1548 34.8655C12.1485 34.8655 13.1422 34.7284 14.0673 34.4887C8.99621 33.4607 5.1928 29.0064 5.1928 23.627V23.49C6.66609 24.3123 8.37943 24.8262 10.1953 24.8947C7.21432 22.9074 5.26136 19.5153 5.26136 15.6777C5.26136 13.6219 5.80948 11.7374 6.76893 10.0927C12.2169 16.8084 20.406 21.1941 29.5887 21.6739C29.4174 20.8516 29.3146 19.995 29.3146 19.1384C29.3146 13.0394 34.2486 8.07117 40.3818 8.07117C43.5683 8.07117 46.4465 9.40746 48.4681 11.5661C50.9693 11.0864 53.3678 10.1612 55.4922 8.89351C54.6698 11.4634 52.9224 13.622 50.6267 14.9924C52.8539 14.7527 55.0125 14.1358 56.9998 13.2793C55.4924 15.4721 53.6078 17.4251 51.4492 19.0013Z\" fill=\"#353739\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        }
+      }
+    },
+    "color": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "ColorSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the color tokens",
+      "test": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ColorSet",
+          "dsys.name": "test",
+          "dsys.nodeId": "1:1074"
+        },
+        "$description": "test color tokens",
+        "test-10": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test-10",
+            "dsys.index": 0,
+            "dsys.styleId": "S:a4f03771f3976a3fe83df21d46c63cc976e2bbda,"
+          },
+          "$value": {
+            "hex": "#5c0000",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "test-20": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test-20",
+            "dsys.index": 1,
+            "dsys.styleId": "S:a79ce8c56fd1265b6729152bef684000528fffe5,"
+          },
+          "$value": {
+            "hex": "#670d0d",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "test-30": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test-30",
+            "dsys.index": 2,
+            "dsys.styleId": "S:c1480e776289a4a03ec2a8c6f6a4386d3503b6ad,"
+          },
+          "$value": {
+            "hex": "#711e1e",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "test-40": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test-40",
+            "dsys.index": 3,
+            "dsys.styleId": "S:e0a33e092ce901ebe7f8acfb229776177409180e,"
+          },
+          "$value": {
+            "hex": "#7c3030",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "test-50": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test-50",
+            "dsys.index": 4,
+            "dsys.styleId": "S:a9a8016743bb89f42e8480cdb75e37bbfd83b083,"
+          },
+          "$value": {
+            "hex": "#874646",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "test": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test",
+            "dsys.index": 5,
+            "dsys.styleId": "S:9687219407d99969d753d5c6276ce3d451703d4e,"
+          },
+          "$value": {
+            "hex": "#874646",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "test-60": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test-60",
+            "dsys.index": 6,
+            "dsys.styleId": "S:2f9c56fb46565b7c30dd0c1ac878a07cc3e95d6a,"
+          },
+          "$value": {
+            "hex": "#a56161",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "test-70": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test-70",
+            "dsys.index": 7,
+            "dsys.styleId": "S:720b3f569cbb180b63c121ff46f90dd7482d9d93,"
+          },
+          "$value": {
+            "hex": "#c38181",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "test-80": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test-80",
+            "dsys.index": 8,
+            "dsys.styleId": "S:97067cd0c1e629bc487ddf2f25fe8ae9af523156,"
+          },
+          "$value": {
+            "hex": "#e1a4a4",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "test-90": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "test-90",
+            "dsys.index": 9,
+            "dsys.styleId": "S:9849ec4f439f29576129bf42c5dc111f74540d05,"
+          },
+          "$value": {
+            "hex": "#ffcccc",
+            "alpha": 1
+          },
+          "$type": "color"
+        }
+      }
+    }
+  }
+}
