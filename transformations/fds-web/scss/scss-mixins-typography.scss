@@ -1,0 +1,72 @@
+@mixin font-test-h1 {
+  font: var( --tst-type-test-h1 );
+}
+@mixin font-test-h1-size {
+  font: var( --tst-type-test-h1-size );
+}
+@mixin font-test-h1-weight {
+  font: var( --tst-type-test-h1-weight );
+}
+@mixin font-test-h2 {
+  font: var( --tst-type-test-h2 );
+}
+@mixin font-test-h2-size {
+  font: var( --tst-type-test-h2-size );
+}
+@mixin font-test-h2-weight {
+  font: var( --tst-type-test-h2-weight );
+}
+@mixin font-test-h3 {
+  font: var( --tst-type-test-h3 );
+}
+@mixin font-test-h3-size {
+  font: var( --tst-type-test-h3-size );
+}
+@mixin font-test-h3-weight {
+  font: var( --tst-type-test-h3-weight );
+}
+@mixin font-test-h4 {
+  font: var( --tst-type-test-h4 );
+}
+@mixin font-test-h4-size {
+  font: var( --tst-type-test-h4-size );
+}
+@mixin font-test-h4-weight {
+  font: var( --tst-type-test-h4-weight );
+}
+@mixin font-test-h5 {
+  font: var( --tst-type-test-h5 );
+}
+@mixin font-test-h5-size {
+  font: var( --tst-type-test-h5-size );
+}
+@mixin font-test-h5-weight {
+  font: var( --tst-type-test-h5-weight );
+}
+@mixin font-test-h6 {
+  font: var( --tst-type-test-h6 );
+}
+@mixin font-test-h6-size {
+  font: var( --tst-type-test-h6-size );
+}
+@mixin font-test-h6-weight {
+  font: var( --tst-type-test-h6-weight );
+}
+@mixin font-test-p {
+  font: var( --tst-type-test-p );
+}
+@mixin font-test-p-size {
+  font: var( --tst-type-test-p-size );
+}
+@mixin font-test-p-weight {
+  font: var( --tst-type-test-p-weight );
+}
+@mixin font-test {
+  font: var( --tst-type-test );
+}
+@mixin font-test-size {
+  font: var( --tst-type-test-size );
+}
+@mixin font-test-weight {
+  font: var( --tst-type-test-weight );
+}
